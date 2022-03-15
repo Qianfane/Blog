@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-3、两栏布局-上固定下自适应</title>
+    <style>
+        html * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+        }
+        .layout {
+            width: 150px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 浮动解决方案 -->
+    <section class="layout float">
+        <style>
+            .layout.float .top-bottom {
+                height: 100%;
+            }
+            .layout.float .top {
+                position: absolute;
+                top: 0;
+
+                height: 100px;
+                background: red;
+            }
+            .layout.float .bottom {
+                position: absolute;
+                top: 100px;
+
+                
+                background: blue;
+            }
+        </style>
+        <article class="top-bottom">
+            <div class="top">上固定</div>
+            <div class="bottom">
+                <h1>下自适应</h1>
+            </div>
+        </article>
+    </section>
+
+    <!-- 绝对定位解决方案 -->
+
+    <!-- 弹性布局解决方案 -->
+
+    <!-- 表格布局解决方案 -->
+
+    <!-- 网格布局解决方案 -->
+</body>
+
+</html>

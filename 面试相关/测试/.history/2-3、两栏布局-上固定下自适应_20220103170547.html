@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-3、两栏布局-上固定下自适应</title>
+    <style>
+        html * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+        }
+        .layout {
+            margin-right: 20px;
+        }
+        .layout .top-bottom > div {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 绝对定位解决方案 -->
+    <section class="layout absolute">
+        <style>
+            .layout.absolute .top-bottom {
+                width: 150px;
+            }
+            .layout.absolute .top {
+                position: absolute;
+                top: 0;
+
+                height: 100px;
+                background: red;
+            }
+            .layout.absolute .bottom {
+                position: absolute;
+                top: 100px;
+                bottom: 0;
+
+                background: yellow;
+            }
+        </style>
+        <article class="top-bottom">
+            <div class="top">上固定</div>
+            <div class="bottom">
+                <h1>下自适应</h1>
+            </div>
+        </article>
+    </section>
+
+    <!-- 弹性布局解决方案 -->
+    <section class="layout flexbox">
+        <style>
+            .layout.flexbox .top-bottom {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .layout .top {
+                height: 100px;
+                background: red;
+            }
+
+            .layout .bottom {
+                flex: 1;
+                background: yellow;
+            }
+        </style>
+        <article class="top-bottom">
+            <div class="top">上固定</div>
+            <div class="bottom">
+                <h1>下自适应</h1>
+            </div>
+        </article>
+    </section>
+
+    <!-- 表格布局解决方案 -->
+    <section class="layout table">
+        <style>
+            .layout.table .top-bottom {
+                height: 100%;
+                width: 150px;
+                display: table;
+            }
+
+            .layout .top {
+                display: table-row;
+
+                height: 100px;
+                background: red;
+            }
+
+            .layout .bottom {
+                display: table-row;
+
+                
+                background: yellow;
+            }
+        </style>
+        <article class="top-bottom">
+            <div class="top">上固定</div>
+            <div class="bottom">
+                <h1>下自适应</h1>
+            </div>
+        </article>
+    </section>
+
+    <!-- 网格布局解决方案 -->
+    <section class="layout grid">
+        <article class="top-bottom">
+            
+        </article>
+    </section>
+</body>
+
+</html>

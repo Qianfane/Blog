@@ -1,0 +1,26 @@
+- [x] ~~[数组去重、扁平、最值](http://www.conardli.top/docs/JavaScript/数组去重、扁平、最值.html)~~
+- [x] ~~[数组乱序-洗牌算法](http://www.conardli.top/docs/JavaScript/数组乱序-洗牌算法.html)~~
+- [x] ~~[函数柯里化](http://www.conardli.top/docs/JavaScript/函数柯里化.html)~~
+- [ ] [验证邮箱](http://interview.poetries.top/docs/handwritten.html#_23-%E9%AA%8C%E8%AF%81%E6%98%AF%E5%90%A6%E6%98%AF%E9%82%AE%E7%AE%B1)
+- [ ] [url转对象](http://interview.poetries.top/docs/handwritten.html#_16-%E8%A7%A3%E6%9E%90-url-params-%E4%B8%BA%E5%AF%B9%E8%B1%A1)
+- [ ] [防抖](http://www.conardli.top/docs/JavaScript/防抖.html)
+- [ ] [节流](http://www.conardli.top/docs/JavaScript/节流.html)
+- [ ] [浅拷贝和深拷贝](http://www.conardli.top/docs/JavaScript/浅拷贝和深拷贝.html)
+- [x] ~~[new](http://interview.poetries.top/docs/handwritten.html#_6-%E6%A8%A1%E6%8B%9Fnew)~~
+- [x] ~~[手写原生ajax ](http://interview.poetries.top/docs/handwritten.html#_60-%E6%89%8B%E5%86%99%E5%8E%9F%E7%94%9Fajax)~~
+- [ ] [手动实现call、apply、bind](http://www.conardli.top/docs/JavaScript/手动实现call、apply、bind.html)
+- [ ] [EventEmitter](http://www.conardli.top/docs/JavaScript/EventEmitter.html)
+  - [尚硅谷代码](https://zxfjd3g.github.io/atguigu_utils-docs/chapter2/05_%E6%89%8B%E5%86%99%E5%B8%A6%E5%A7%94%E6%89%98%E7%9A%84%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC.html#_6-1-%E7%90%86%E8%A7%A3%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%E4%B8%8E%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98)
+  - [尚硅谷视频](https://www.bilibili.com/video/BV1Cy4y117vt?p=34)
+- [x] ~~[手动实现JSONP](http://www.conardli.top/docs/JavaScript/手动实现JSONP.html)~~
+- [x] ~~[模拟实现promise](http://www.conardli.top/docs/JavaScript/模拟实现promise.html)~~
+- [ ] [手动实现ES5继承](http://www.conardli.top/docs/JavaScript/手动实现ES5继承.html)
+- [x] ~~[手动实现instanceof](http://www.conardli.top/docs/JavaScript/手动实现instanceof.html)~~
+- [ ] [基于Promise的ajax封装](http://www.conardli.top/docs/JavaScript/基于Promise的ajax封装.html)
+- [x] ~~[字符串驼峰](http://interview.poetries.top/docs/handwritten.html#_18-%E8%BD%AC%E5%8C%96%E4%B8%BA%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D)~~
+- [ ] 
+- [ ] [单例模式](http://www.conardli.top/docs/JavaScript/单例模式.html)
+- [ ] [异步循环打印](http://www.conardli.top/docs/JavaScript/异步循环打印.html)
+- [ ] [图片懒加载](http://www.conardli.top/docs/JavaScript/图片懒加载.html)
+- [ ] [快排]()
+- [ ] [二分算法]()

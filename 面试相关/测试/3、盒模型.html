@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3、盒模型</title>
+    <style>
+        div {
+            width: 400px;
+            height: 200px;
+            padding: 20px;
+            margin: 50px auto;
+            background: purple;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <script>
+        let elem = document.querySelector('div');
+        let rect = elem.getBoundingClientRect();
+        console.log(rect);
+
+
+    </script>
+</body>
+
+</html>
