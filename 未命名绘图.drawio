@@ -1,14 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T14:45:41.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PPL5T1xtDfIwML6Hap29" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T15:15:32.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XLAEt0rLU_gBDoKJmKyc" version="21.7.5" type="github">
   <diagram name="第 1 页" id="0MGnlaVQAGwbfduyAAXJ">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C5cpUHnBaNanRT-I6z-A-1" value="sdf" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="200" y="200" width="80" height="80" as="geometry" />
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C5cpUHnBaNanRT-I6z-A-2" value="sfsdfsdf" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="210" width="120" height="80" as="geometry" />
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-3" target="C5cpUHnBaNanRT-I6z-A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-3" value="oldNode节点是虚拟节点还是DOM节点？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-4" target="C5cpUHnBaNanRT-I6z-A-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-4" value="patch函数被调用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="60" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-10" value="是DOM节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="188" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-11" target="C5cpUHnBaNanRT-I6z-A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-11" value="将DOM节点包装成虚拟节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-12" target="C5cpUHnBaNanRT-I6z-A-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-12" target="C5cpUHnBaNanRT-I6z-A-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-12" value="oldNode和newNode是否为同一节点？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-14" value="是虚拟节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="288" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-16" value="暴力去除旧节点，插入新节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-18" value="不是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-19" target="C5cpUHnBaNanRT-I6z-A-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-19" target="C5cpUHnBaNanRT-I6z-A-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-19" value="oldNode和newNode是否为同一对象？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="500" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-21" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-22" value="不做处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-24" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="510" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-25" target="C5cpUHnBaNanRT-I6z-A-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-25" target="C5cpUHnBaNanRT-I6z-A-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-47" value="不是，说明children属性有值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C5cpUHnBaNanRT-I6z-A-46">
+          <mxGeometry x="-0.06" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-25" value="newNode的text属性是否有值？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="660" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-27" value="不是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-28" value="将newNode.elm.innerText设置为newNode.text" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="582" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-34" target="C5cpUHnBaNanRT-I6z-A-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-34" target="C5cpUHnBaNanRT-I6z-A-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-34" value="oldNode和newNode的text值是否相同？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="660" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-36" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="670" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-38" value="不相同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="631" y="758" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-40" value="啥也不做" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="780" width="90" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-43" value="相同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="538" y="740" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C5cpUHnBaNanRT-I6z-A-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-45" value="oldNode的children属性是否有值？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="820" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-49" value="①清空旧节点&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;②将newNode的children添加到DOM中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-50" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="918" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C5cpUHnBaNanRT-I6z-A-53" value="是（oldNode和newNode都有children）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="898" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
