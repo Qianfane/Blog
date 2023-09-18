@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T13:43:49.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rg_EIkJI478RM2LJ7l3q" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T13:52:40.269Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="X_LNd4lkEXQgzr3tEz5T" version="21.7.5" type="github">
   <diagram name="第 1 页" id="0MGnlaVQAGwbfduyAAXJ">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1569" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
         </mxCell>
         <mxCell id="C5cpUHnBaNanRT-I6z-A-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="C5cpUHnBaNanRT-I6z-A-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="975" as="targetPoint" />
+            <mxPoint x="180" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C5cpUHnBaNanRT-I6z-A-45" value="oldNode的children属性是否有值？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -128,6 +128,29 @@
         </mxCell>
         <mxCell id="C5cpUHnBaNanRT-I6z-A-53" value="是（oldNode和newNode都有children）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="898" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7WvrCznIxpQq9NSfD_MA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7WvrCznIxpQq9NSfD_MA-1" target="7WvrCznIxpQq9NSfD_MA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WvrCznIxpQq9NSfD_MA-1" value="四种命中方式&lt;br&gt;新前与旧前&lt;br&gt;新后与旧后&lt;br&gt;新后与旧前（命中涉及移动节点，将新后指向的节点移动到旧后的后面）&lt;br&gt;新前与旧后（命中涉及移动节点，将新前指向的节点移动到旧前的前面）&lt;br&gt;&lt;br&gt;如果四种都不命中，则循环寻找旧节点中是否有新前/新后节点" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1100" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7WvrCznIxpQq9NSfD_MA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7WvrCznIxpQq9NSfD_MA-2" target="7WvrCznIxpQq9NSfD_MA-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7WvrCznIxpQq9NSfD_MA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="7WvrCznIxpQq9NSfD_MA-2" target="7WvrCznIxpQq9NSfD_MA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WvrCznIxpQq9NSfD_MA-2" value="退出循环有两种情况" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7WvrCznIxpQq9NSfD_MA-6" value="如果新节点先循环完毕，旧前与旧后之间的节点需要删除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487" y="1305" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7WvrCznIxpQq9NSfD_MA-7" value="如果旧节点先循环完毕，新前与新后之间的节点需要插入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487" y="1405" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
